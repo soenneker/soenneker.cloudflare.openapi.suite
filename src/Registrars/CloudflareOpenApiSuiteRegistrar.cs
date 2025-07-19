@@ -33,8 +33,7 @@ public static class CloudflareOpenApiSuiteRegistrar
                 .AddCloudflareScrapeShieldUtilAsSingleton()
                 .AddCloudflareDnsSettingsUtilAsSingleton()
                 .AddCloudflareWorkersUtilAsSingleton()
-                .AddCloudflarePagesUtilAsSingleton()
-                .AddCloudflareWebAnalyticsUtilAsSingleton();
+                .AddCloudflarePagesUtilAsSingleton();
 
         return services;
     }
@@ -55,8 +54,7 @@ public static class CloudflareOpenApiSuiteRegistrar
                 .AddCloudflareScrapeShieldUtilAsScoped()
                 .AddCloudflareDnsSettingsUtilAsScoped()
                 .AddCloudflareWorkersUtilAsScoped()
-                .AddCloudflarePagesUtilAsScoped()
-                .AddCloudflareWebAnalyticsUtilAsScoped();
+                .AddCloudflarePagesUtilAsScoped();
 
         return services;
     }
