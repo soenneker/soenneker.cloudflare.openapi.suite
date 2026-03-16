@@ -8,6 +8,7 @@ using Soenneker.Cloudflare.Security.Registrars;
 using Soenneker.Cloudflare.Speed.Registrars;
 using Soenneker.Cloudflare.Ssl.Registrars;
 using Soenneker.Cloudflare.WebAnalytics.Registrars;
+using Soenneker.Cloudflare.Workers.Kv.Registrars;
 using Soenneker.Cloudflare.Workers.Registrars;
 
 namespace Soenneker.Cloudflare.OpenApi.Suite.Registrars;
@@ -33,7 +34,8 @@ public static class CloudflareOpenApiSuiteRegistrar
                 .AddCloudflareScrapeShieldUtilAsSingleton()
                 .AddCloudflareDnsSettingsUtilAsSingleton()
                 .AddCloudflareWorkersUtilAsSingleton()
-                .AddCloudflarePagesUtilAsSingleton();
+                .AddCloudflarePagesUtilAsSingleton()
+                .AddCloudflareWorkersKvUtilAsSingleton();
 
         return services;
     }
@@ -54,7 +56,8 @@ public static class CloudflareOpenApiSuiteRegistrar
                 .AddCloudflareScrapeShieldUtilAsScoped()
                 .AddCloudflareDnsSettingsUtilAsScoped()
                 .AddCloudflareWorkersUtilAsScoped()
-                .AddCloudflarePagesUtilAsScoped();
+                .AddCloudflarePagesUtilAsScoped()
+                .AddCloudflareWorkersKvUtilAsScoped();
 
         return services;
     }
