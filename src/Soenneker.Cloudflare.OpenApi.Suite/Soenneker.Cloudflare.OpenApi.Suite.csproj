@@ -57,6 +57,6 @@
         <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="4.0.408" />
         <PackageReference Include="Soenneker.Cloudflare.WebAnalytics" Version="4.0.406" />
         <PackageReference Include="Soenneker.Cloudflare.Workers" Version="4.0.404" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers.Kv" Version="4.0.38" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers.Kv" Version="4.0.39" />
     </ItemGroup>
 </Project>
