@@ -45,7 +45,7 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Cloudflare.Caching" Version="4.0.417" />
-        <PackageReference Include="Soenneker.Cloudflare.DnsSettings" Version="4.0.422" />
+        <PackageReference Include="Soenneker.Cloudflare.DnsSettings" Version="4.0.423" />
         <PackageReference Include="Soenneker.Cloudflare.EmailRouting" Version="4.0.423" />
         <PackageReference Include="Soenneker.Cloudflare.Pages" Version="4.0.746" />
         <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="4.0.425" />
