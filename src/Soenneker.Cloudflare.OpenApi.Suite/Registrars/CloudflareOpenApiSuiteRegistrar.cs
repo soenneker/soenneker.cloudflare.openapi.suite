@@ -9,6 +9,7 @@ using Soenneker.Cloudflare.Security.Registrars;
 using Soenneker.Cloudflare.Speed.Registrars;
 using Soenneker.Cloudflare.Ssl.Registrars;
 using Soenneker.Cloudflare.WebAnalytics.Registrars;
+using Soenneker.Cloudflare.Workers.Ai.Registrars;
 using Soenneker.Cloudflare.Workers.Kv.Registrars;
 using Soenneker.Cloudflare.Workers.Registrars;
 
@@ -31,7 +32,7 @@ public static class CloudflareOpenApiSuiteRegistrar
                 .AddCloudflareCachingUtilAsSingleton().AddCloudflareSslUtilAsSingleton()
                 .AddCloudflareScrapeShieldUtilAsSingleton().AddCloudflareDnsSettingsUtilAsSingleton()
                 .AddCloudflareWorkersUtilAsSingleton().AddCloudflarePagesUtilAsSingleton()
-                .AddCloudflareWorkersKvUtilAsSingleton().AddCloudflareRegistrarUtilAsSingleton();
+                .AddCloudflareWorkersKvUtilAsSingleton().AddCloudflareRegistrarUtilAsSingleton().AddCloudflareWorkersAiUtilAsSingleton();
 
         return services;
     }
@@ -48,7 +49,7 @@ public static class CloudflareOpenApiSuiteRegistrar
                 .AddCloudflareCachingUtilAsScoped().AddCloudflareSslUtilAsScoped()
                 .AddCloudflareScrapeShieldUtilAsScoped().AddCloudflareDnsSettingsUtilAsScoped()
                 .AddCloudflareWorkersUtilAsScoped().AddCloudflarePagesUtilAsScoped()
-                .AddCloudflareWorkersKvUtilAsScoped().AddCloudflareRegistrarUtilAsScoped();
+                .AddCloudflareWorkersKvUtilAsScoped().AddCloudflareRegistrarUtilAsScoped().AddCloudflareWorkersAiUtilAsScoped();
 
         return services;
     }
