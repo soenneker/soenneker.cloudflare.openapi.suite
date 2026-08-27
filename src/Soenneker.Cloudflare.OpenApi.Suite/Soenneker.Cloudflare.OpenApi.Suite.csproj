@@ -50,7 +50,7 @@
         <PackageReference Include="Soenneker.Cloudflare.Pages" Version="4.0.853" />
         <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="4.0.60" />
         <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="4.0.483" />
-        <PackageReference Include="Soenneker.Cloudflare.Security" Version="4.0.466" />
+        <PackageReference Include="Soenneker.Cloudflare.Security" Version="4.0.467" />
         <PackageReference Include="Soenneker.Cloudflare.Speed" Version="4.0.484" />
         <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="4.0.482" />
         <PackageReference Include="Soenneker.Cloudflare.WebAnalytics" Version="4.0.484" />
