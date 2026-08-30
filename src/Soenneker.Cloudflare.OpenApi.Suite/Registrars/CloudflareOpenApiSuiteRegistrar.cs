@@ -17,7 +17,7 @@ using Soenneker.Cloudflare.Workers.Registrars;
 namespace Soenneker.Cloudflare.OpenApi.Suite.Registrars;
 
 /// <summary>
-/// A comprehensive suite of utility libraries for Cloudflare's OpenApi operations
+/// Registers the selected Cloudflare utilities included by this package.
 /// </summary>
 public static class CloudflareOpenApiSuiteRegistrar
 {
