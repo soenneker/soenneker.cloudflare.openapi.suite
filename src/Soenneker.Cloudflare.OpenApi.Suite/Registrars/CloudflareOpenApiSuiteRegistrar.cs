@@ -3,6 +3,7 @@ using Soenneker.Cloudflare.Caching.Registrars;
 using Soenneker.Cloudflare.DnsSettings.Registrars;
 using Soenneker.Cloudflare.EmailRouting.Registrars;
 using Soenneker.Cloudflare.Pages.Registrars;
+using Soenneker.Cloudflare.R2.Registrars;
 using Soenneker.Cloudflare.Registrar.Registrars;
 using Soenneker.Cloudflare.ScrapeShield.Registrars;
 using Soenneker.Cloudflare.Security.Registrars;
@@ -32,7 +33,8 @@ public static class CloudflareOpenApiSuiteRegistrar
                 .AddCloudflareCachingUtilAsSingleton().AddCloudflareSslUtilAsSingleton()
                 .AddCloudflareScrapeShieldUtilAsSingleton().AddCloudflareDnsSettingsUtilAsSingleton()
                 .AddCloudflareWorkersUtilAsSingleton().AddCloudflarePagesUtilAsSingleton()
-                .AddCloudflareWorkersKvUtilAsSingleton().AddCloudflareRegistrarUtilAsSingleton().AddCloudflareWorkersAiUtilAsSingleton();
+                .AddCloudflareWorkersKvUtilAsSingleton().AddCloudflareRegistrarUtilAsSingleton()
+                .AddCloudflareWorkersAiUtilAsSingleton().AddCloudflareR2UtilAsSingleton();
 
         return services;
     }
@@ -49,7 +51,8 @@ public static class CloudflareOpenApiSuiteRegistrar
                 .AddCloudflareCachingUtilAsScoped().AddCloudflareSslUtilAsScoped()
                 .AddCloudflareScrapeShieldUtilAsScoped().AddCloudflareDnsSettingsUtilAsScoped()
                 .AddCloudflareWorkersUtilAsScoped().AddCloudflarePagesUtilAsScoped()
-                .AddCloudflareWorkersKvUtilAsScoped().AddCloudflareRegistrarUtilAsScoped().AddCloudflareWorkersAiUtilAsScoped();
+                .AddCloudflareWorkersKvUtilAsScoped().AddCloudflareRegistrarUtilAsScoped()
+                .AddCloudflareWorkersAiUtilAsScoped().AddCloudflareR2UtilAsScoped();
 
         return services;
     }
