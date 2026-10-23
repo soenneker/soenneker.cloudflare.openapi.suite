@@ -45,19 +45,19 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Cloudflare.Caching" Version="4.0.541" />
-        <PackageReference Include="Soenneker.Cloudflare.DnsSettings" Version="4.0.543" />
-        <PackageReference Include="Soenneker.Cloudflare.EmailRouting" Version="4.0.541" />
-        <PackageReference Include="Soenneker.Cloudflare.Pages" Version="4.0.944" />
-        <PackageReference Include="Soenneker.Cloudflare.R2" Version="4.0.102" />
-        <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="4.0.123" />
-        <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="4.0.544" />
-        <PackageReference Include="Soenneker.Cloudflare.Security" Version="4.0.527" />
-        <PackageReference Include="Soenneker.Cloudflare.Speed" Version="4.0.545" />
-        <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="4.0.544" />
-        <PackageReference Include="Soenneker.Cloudflare.WebAnalytics" Version="4.0.546" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers" Version="4.0.581" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers.Ai" Version="4.0.80" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers.Kv" Version="4.0.183" />
+        <PackageReference Include="Soenneker.Cloudflare.Caching" Version="4.0.543" />
+        <PackageReference Include="Soenneker.Cloudflare.DnsSettings" Version="4.0.545" />
+        <PackageReference Include="Soenneker.Cloudflare.EmailRouting" Version="4.0.542" />
+        <PackageReference Include="Soenneker.Cloudflare.Pages" Version="4.0.945" />
+        <PackageReference Include="Soenneker.Cloudflare.R2" Version="4.0.103" />
+        <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="4.0.124" />
+        <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="4.0.546" />
+        <PackageReference Include="Soenneker.Cloudflare.Security" Version="4.0.529" />
+        <PackageReference Include="Soenneker.Cloudflare.Speed" Version="4.0.547" />
+        <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="4.0.545" />
+        <PackageReference Include="Soenneker.Cloudflare.WebAnalytics" Version="4.0.547" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers" Version="4.0.583" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers.Ai" Version="4.0.82" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers.Kv" Version="4.0.184" />
     </ItemGroup>
 </Project>
