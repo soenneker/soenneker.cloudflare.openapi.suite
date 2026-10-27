@@ -46,19 +46,19 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Cloudflare.Caching" Version="11.0.548" />
+        <PackageReference Include="Soenneker.Cloudflare.Caching" Version="11.0.549" />
         <PackageReference Include="Soenneker.Cloudflare.DnsSettings" Version="11.0.550" />
-        <PackageReference Include="Soenneker.Cloudflare.EmailRouting" Version="11.0.548" />
+        <PackageReference Include="Soenneker.Cloudflare.EmailRouting" Version="11.0.549" />
         <PackageReference Include="Soenneker.Cloudflare.Pages" Version="11.0.949" />
-        <PackageReference Include="Soenneker.Cloudflare.R2" Version="11.0.109" />
-        <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="11.0.129" />
-        <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="11.0.551" />
+        <PackageReference Include="Soenneker.Cloudflare.R2" Version="11.0.111" />
+        <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="11.0.130" />
+        <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="11.0.552" />
         <PackageReference Include="Soenneker.Cloudflare.Security" Version="11.0.533" />
         <PackageReference Include="Soenneker.Cloudflare.Speed" Version="11.0.551" />
         <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="11.0.549" />
         <PackageReference Include="Soenneker.Cloudflare.WebAnalytics" Version="11.0.553" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers" Version="11.0.588" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers.Ai" Version="11.0.88" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers.Kv" Version="11.0.188" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers" Version="11.0.589" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers.Ai" Version="11.0.89" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers.Kv" Version="11.0.189" />
     </ItemGroup>
 </Project>
