@@ -46,19 +46,19 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Cloudflare.Caching" Version="11.0.551" />
-        <PackageReference Include="Soenneker.Cloudflare.DnsSettings" Version="11.0.553" />
+        <PackageReference Include="Soenneker.Cloudflare.Caching" Version="11.0.552" />
+        <PackageReference Include="Soenneker.Cloudflare.DnsSettings" Version="11.0.554" />
         <PackageReference Include="Soenneker.Cloudflare.EmailRouting" Version="11.0.551" />
         <PackageReference Include="Soenneker.Cloudflare.Pages" Version="11.0.954" />
-        <PackageReference Include="Soenneker.Cloudflare.R2" Version="11.0.114" />
+        <PackageReference Include="Soenneker.Cloudflare.R2" Version="11.0.115" />
         <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="11.0.132" />
-        <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="11.0.554" />
-        <PackageReference Include="Soenneker.Cloudflare.Security" Version="11.0.536" />
+        <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="11.0.555" />
+        <PackageReference Include="Soenneker.Cloudflare.Security" Version="11.0.537" />
         <PackageReference Include="Soenneker.Cloudflare.Speed" Version="11.0.554" />
-        <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="11.0.552" />
-        <PackageReference Include="Soenneker.Cloudflare.WebAnalytics" Version="11.0.556" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers" Version="11.0.592" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers.Ai" Version="11.0.92" />
-        <PackageReference Include="Soenneker.Cloudflare.Workers.Kv" Version="11.0.191" />
+        <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="11.0.553" />
+        <PackageReference Include="Soenneker.Cloudflare.WebAnalytics" Version="11.0.557" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers" Version="11.0.593" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers.Ai" Version="11.0.93" />
+        <PackageReference Include="Soenneker.Cloudflare.Workers.Kv" Version="11.0.192" />
     </ItemGroup>
 </Project>
