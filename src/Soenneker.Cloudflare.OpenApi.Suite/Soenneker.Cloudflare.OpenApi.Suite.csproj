@@ -48,13 +48,13 @@
     <ItemGroup>
         <PackageReference Include="Soenneker.Cloudflare.Caching" Version="11.0.552" />
         <PackageReference Include="Soenneker.Cloudflare.DnsSettings" Version="11.0.554" />
-        <PackageReference Include="Soenneker.Cloudflare.EmailRouting" Version="11.0.551" />
-        <PackageReference Include="Soenneker.Cloudflare.Pages" Version="11.0.954" />
+        <PackageReference Include="Soenneker.Cloudflare.EmailRouting" Version="11.0.552" />
+        <PackageReference Include="Soenneker.Cloudflare.Pages" Version="11.0.955" />
         <PackageReference Include="Soenneker.Cloudflare.R2" Version="11.0.115" />
-        <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="11.0.132" />
+        <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="11.0.133" />
         <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="11.0.555" />
         <PackageReference Include="Soenneker.Cloudflare.Security" Version="11.0.537" />
-        <PackageReference Include="Soenneker.Cloudflare.Speed" Version="11.0.554" />
+        <PackageReference Include="Soenneker.Cloudflare.Speed" Version="11.0.555" />
         <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="11.0.553" />
         <PackageReference Include="Soenneker.Cloudflare.WebAnalytics" Version="11.0.557" />
         <PackageReference Include="Soenneker.Cloudflare.Workers" Version="11.0.593" />
