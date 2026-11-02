@@ -52,7 +52,7 @@
         <PackageReference Include="Soenneker.Cloudflare.Pages" Version="11.0.960" />
         <PackageReference Include="Soenneker.Cloudflare.R2" Version="11.0.119" />
         <PackageReference Include="Soenneker.Cloudflare.Registrar" Version="11.0.136" />
-        <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="11.0.558" />
+        <PackageReference Include="Soenneker.Cloudflare.ScrapeShield" Version="11.0.559" />
         <PackageReference Include="Soenneker.Cloudflare.Security" Version="11.0.541" />
         <PackageReference Include="Soenneker.Cloudflare.Speed" Version="11.0.559" />
         <PackageReference Include="Soenneker.Cloudflare.Ssl" Version="11.0.557" />
